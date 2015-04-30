@@ -6,6 +6,7 @@ import java.util.List;
 
 public class BinPackingEasy {
 	
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public int minBins(int[] item)
 	{
 		int minBins = 0;
@@ -34,6 +35,7 @@ public class BinPackingEasy {
 		return minBins;
 	}
 	
+	@SuppressWarnings("rawtypes")
 	boolean fillABin(List itemList)
 	{
 		boolean filled = true;
