@@ -35,6 +35,7 @@ public class FoxAndGomoku {
 		return result;
 	}
 
+	@SuppressWarnings("unused")
 	private boolean checkRightLeftDiagonal(String[] board, int i, int j) {
 		boolean res = false;
 		int count = 0;
